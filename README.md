@@ -1,13 +1,13 @@
 # tailnetctl
 
+![AI-Assisted](https://img.shields.io/badge/Code-AI--Assisted-blueviolet)
+
 `tailnetctl.py` 是一個 standalone Python 工具，用來：
 
 - 從 `.tailscale.env` 讀取 auth key，將本機加入 tailnet。
 - 查詢 tailnet、本機狀態與所有裝置（含自己）。
 - 透過互動選單或 `--peer` 選擇裝置，開啟 SSH 或建立本地端口轉送。
 - 支援官方 Tailscale 與自架 Headscale（透過 `TAILSCALE_LOGIN_SERVER`）。
-
-本專案不依賴其他 SDK。
 
 ## 需求
 
